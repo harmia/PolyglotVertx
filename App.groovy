@@ -13,7 +13,7 @@ package webapp
 // Configuration for the web server
 def webServerConf = [
         // Normal web server stuff
-        port: 80,
+        port: 8080,
         host: 'localhost',
         ssl: false,
         // Configuration for the event bus client side bridge

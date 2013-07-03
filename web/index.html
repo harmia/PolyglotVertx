@@ -79,6 +79,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
             <h1 class="title">{{'overview.title' | i18n }}</h1>
 
+            <div class="alert alert-info" ng-hide="departments.length">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                {{'overview.empty.departments' | i18n}}
+            </div>
+
+            <div class="alert alert-info" ng-show="departments.length" ng-hide="countEmployees()">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                {{'overview.empty.employees' | i18n}}
+            </div>
+
             <h3>{{'overview.total' | i18n:[departments.length,countEmployees()]}}</h3>
 
             <ul class="nav nav-pills" data-tabs="tabs" ng-show="departments.length">
@@ -190,12 +200,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     <div class="row">
         <div class="span8 offset2">
 
+            <h1 class="title">{{'employees.title' | i18n }}</h1>
+
             <div class="alert alert-info" ng-hide="departments.length">
                 <button type="button" class="close" data-dismiss="alert">&times;</button>
                 {{'employees.empty.departments' | i18n}}
             </div>
-
-            <h1 class="title">{{'employees.title' | i18n }}</h1>
 
             <span ng-show="departments.length">
                 <form name="employeeForm" class="form-horizontal" novalidate>

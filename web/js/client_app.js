@@ -170,7 +170,7 @@ function MainCtrl($scope, $filter, EventBus) {
     }
 
     $scope.changeEmployeeDepartment = function (oldDepartment, employee, newDepartment) {
-        if (employee) {
+        if (oldDepartment && employee && newDepartment && oldDepartment._id != newDepartment._id) {
             EventBus.send('vertx.mongopersistor', {action: 'update', collection: 'departments', criteria: {_id: oldDepartment._id}, objNew: {$pull: {employees: {id: employee.id}}}},
                 function (reply) {
                     if (reply.status === 'ok') {
