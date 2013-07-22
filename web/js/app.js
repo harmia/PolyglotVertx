@@ -60,7 +60,7 @@ var myModule = angular.module('polyglotVertxModule', []).factory('EventBus',func
         return function(scope, iElement, iAttrs) {
             iElement.datepicker({
                 showOn: "button",
-                buttonImage: "/images/calendar.png",
+                buttonImage: "/img/calendar.png",
                 buttonImageOnly: true,
                 onSelect: function() {
                     $timeout(function() {
