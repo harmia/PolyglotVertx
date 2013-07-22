@@ -9,7 +9,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 -->
 <!doctype html>
-<html xmlns:ng="http://angularjs.org" ng-app="polyglotVertxModule">
+<html ng-app="vertxModule">
 <head>
     <meta charset="utf-8">
 
@@ -19,16 +19,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 
-    <link href="css/reset.css" rel="stylesheet"/>
-    <link href="css/bootstrap.css" rel="stylesheet"/>
-    <link href="css/bootstrap-responsive.css" rel="stylesheet"/>
-    <link href="css/jquery-ui.css" rel="stylesheet"/>
+    <link href="/css/reset.css" rel="stylesheet"/>
+    <link href="/css/bootstrap.css" rel="stylesheet"/>
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet"/>
+    <link href="/css/jquery-ui.css" rel="stylesheet"/>
 
-    <script src="lib/jquery-2.0.3.js"></script>
-    <script src="lib/jquery-ui.js"></script>
-    <script src="js/i18n/ui.datepicker-fi.js"></script>
-    <script src="lib/jquery.i18n.properties-1.0.9.js"></script>
-    <script src="lib/bootstrap.js"></script>
+    <script src="/lib/jquery-2.0.3.js"></script>
+    <script src="/lib/jquery-ui.js"></script>
+    <script src="/js/i18n/ui.datepicker-fi.js"></script>
+    <script src="/lib/jquery.i18n.properties-1.0.9.js"></script>
+    <script src="/lib/bootstrap.js"></script>
 </head>
 
 <body ng-controller="MainCtrl">
@@ -62,14 +62,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
         $('.nav.nav-pills').tabs();
     });
 </script>
-<script src="lib/sockjs-0.3.4.min.js"></script>
-<script src="lib/angular-1.1.5.js"></script>
-<script src="js/custom.js"></script>
+<script src="/lib/sockjs-0.3.4.min.js"></script>
+<script src="/lib/angular-1.1.5.js"></script>
+<script src="/js/custom.js"></script>
 <script language="javascript" type="text/javascript">
     if (getLocale() == 'fi') {
-        document.write("<script language='javascript' type='text/javascript' src='js/i18n/angular-locale_fi.js'><\/script>");
+        document.write("<script language='javascript' type='text/javascript' src='/js/i18n/angular-locale_fi.js'><\/script>");
     }
 </script>
-<script src="lib/vertxbus.js"></script>
-<script src="js/app.js"></script>
+<script src="/lib/vertxbus.js"></script>
+<script src="/js/app.js"></script>
+<script src="/js/controllers.js"></script>
+<script src="/js/filters.js"></script>
+<script src="/js/directives.js"></script>
 </html>

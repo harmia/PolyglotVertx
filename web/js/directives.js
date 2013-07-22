@@ -2,21 +2,38 @@
  * Created with IntelliJ IDEA.
  * User: harmia
  * Date: 22.7.2013
- * Time: 14:03
+ * Time: 14:39
  * Copyright (C) 2013 Juhana "harmia" Harmanen
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-var vertxApp = angular.module('vertxModule', []).factory('EventBus', function () {
-        var EventBus = new vertx.EventBus(window.location.protocol + '//' + window.location.hostname + ':' + window.location.port + '/eventbus');
-        EventBus.onopen = function () {
+vertxApp.directive('autoComplete',function ($timeout) {
+        return function (scope, iElement, iAttrs) {
+            iElement.autocomplete({
+                source: scope[iAttrs.uiItems],
+                select: function () {
+                    $timeout(function () {
+                        iElement.trigger('input')
+                    }, 0)
+                }
+            })
         }
-
-        EventBus.onclose = function () {
-            eb = null
+    }
+).directive('datepicker', function ($timeout) {
+        $.datepicker.setDefaults($.datepicker.regional['']);
+        $.datepicker.setDefaults($.datepicker.regional[getLocale()]);
+        return function (scope, iElement, iAttrs) {
+            iElement.datepicker({
+                showOn: "button",
+                buttonImage: "/img/calendar.png",
+                buttonImageOnly: true,
+                onSelect: function () {
+                    $timeout(function () {
+                        iElement.trigger('input')
+                    }, 0)
+                }
+            })
         }
-        return EventBus
-
     }
 )

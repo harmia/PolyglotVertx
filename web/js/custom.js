@@ -4,7 +4,7 @@ if (!String.prototype.startsWith) {
     }
 }
 
-function getUrlVar(key){
+function getUrlVar(key) {
     var result = new RegExp(key + "=([^&]*)", "i").exec(window.location.search)
     return result && result[1] || ""
 }
