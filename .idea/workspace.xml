@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab7f07c9-28d0-49e0-863d-1da929150aec" name="Default" comment="" />
+    <list default="true" id="ab7f07c9-28d0-49e0-863d-1da929150aec" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/project_structure_vertx.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/images/pyramid_vertx.png" afterPath="$PROJECT_DIR$/web/images/pyramid_vertx.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="PolyglotVertx.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372849623092" ignored="false" />
+    <file path="/Dummy.txt" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1374469506701" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/Grails/lib/grails_integration.jar!/org/jetbrains/plugins/grails/lang/gsp/resolve/taglib/tld/grails.tld" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372176354355" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspdirectives.xsd" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372176555433" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspxml2.xsd" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372176555433" ignored="false" />
-    <file path="/index.html" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372849684192" ignored="false" />
+    <file path="/index.html" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372862547960" ignored="false" />
     <file path="/client_app.js" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372849879339" ignored="false" />
     <file path="/filters.js" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372244403426" ignored="false" />
     <file path="/data.json" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372327498243" ignored="false" />
@@ -17,11 +23,40 @@
     <file path="/messages.properties" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372848485405" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/resources/i18n/messages_fi.properties" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372334376017" ignored="false" />
     <file path="/messages_fi.properties" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372334544568" ignored="false" />
-    <file path="/a.dummy" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372841429871" ignored="false" />
-    <file path="/README.md" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372846999858" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/webapp/WEB-INF/pages/overview.jsp" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372849376796" ignored="false" />
-    <file path="/overview.jsp" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372849376796" ignored="false" />
-    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/.idea/workspace.xml" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372849642288" ignored="false" />
+    <file path="/a.dummy" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373455299205" ignored="false" />
+    <file path="/README.md" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1374469909691" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/webapp/WEB-INF/pages/overview.jsp" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373524200969" ignored="false" />
+    <file path="/overview.jsp" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373524184280" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/.idea/workspace.xml" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373541360155" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/.idea/workspace.xml" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373541360155" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/conf/UrlMappings.groovy" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373527762177" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/model/Employee.java" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373455141962" ignored="false" />
+    <file path="/Employee.java" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373455139385" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/EmployeeForm.java" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373455205542" ignored="false" />
+    <file path="/EmployeeForm.java" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373455202791" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/model/Municipality.java" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373455239346" ignored="false" />
+    <file path="/Municipality.java" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373455234159" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/model/Department.java" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373455438034" ignored="false" />
+    <file path="/Department.java" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373455269364" ignored="false" />
+    <file path="/DepartmentForm.java" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373455289255" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/java/info/harmia/polyglot/springapp/mvc/core/service/DepartmentForm.java" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373455291452" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/resources/i18n/exceptions.properties" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373455378792" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/resources/i18n/exceptions_fi.properties" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373455378792" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/src/java/info/harmia/polyglot/springapp/mvc/core/model/Municipality.java" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373455851373" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/src/java/info/harmia/polyglot/springapp/mvc/core/model/Department.java" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373455851373" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/src/java/info/harmia/polyglot/springapp/mvc/core/model/Employee.java" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373455851373" ignored="false" />
+    <file path="/DepartmentService.groovy" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373517250219" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/services/info/harmia/polyglot/grails/service/DepartmentService.groovy" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373517286467" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/src/java/info/harmia/polyglot/springapp/mvc/core/model/EmployeeConstraints.groovy" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373481232482" ignored="false" />
+    <file path="/departments.jsp" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373525097191" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/webapp/WEB-INF/pages/departments.jsp" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373525155840" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/webapp/WEB-INF/pages/employees.jsp" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373524145535" ignored="false" />
+    <file path="/employees.jsp" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373524138983" ignored="false" />
+    <file path="/overview.gsp" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373527487781" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/views/overview/overview.gsp" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373527490934" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/grails-app/conf/Config.groovy" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373527561850" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy/grails-app/conf/Config.groovy" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373527792879" ignored="false" />
+    <file path="$PROJECT_DIR$/../PolyglotGrails/.idea/workspace.xml" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1373527934761" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,51 +117,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="App.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="25" selection-start="1367" selection-end="1367" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="client_app.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/js/client_app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="159" column="13" selection-start="6509" selection-end="6509" vertical-scroll-proportion="0.024110219">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="37" selection-start="4329" selection-end="4329" vertical-scroll-proportion="-6.576923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="messages.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/i18n/messages.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="58" selection-start="1105" selection-end="1105" vertical-scroll-proportion="-16.32">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="ResourceBundle">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="24" selection-start="33" selection-end="171" vertical-scroll-proportion="0.0">
+          <provider editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="3200" selection-end="3200" vertical-scroll-proportion="0.0">
               <folding />
             </state>
+          </provider>
+          <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -137,6 +136,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -146,13 +153,13 @@
         <option value="$PROJECT_DIR$/web/js/filters.js" />
         <option value="$PROJECT_DIR$/web/data/data.json" />
         <option value="$PROJECT_DIR$/web/js/custom.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/StaticData.groovy" />
         <option value="$PROJECT_DIR$/web/i18n/messages.properties" />
         <option value="$PROJECT_DIR$/web/i18n/messages_fi.properties" />
-        <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/App.groovy" />
         <option value="$PROJECT_DIR$/web/js/client_app.js" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -162,7 +169,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -190,6 +197,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -340,23 +349,42 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="292" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="292" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="293" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="293" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="967" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="967" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="293" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="291" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -367,12 +395,19 @@
       <recent name="D:\IdeaProjects\PolyglotVertx\web\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\PolyglotVertx\web\images" />
       <recent name="D:\IdeaProjects\PolyglotVertx\web\js" />
       <recent name="D:\IdeaProjects\PolyglotVertx\web\js3rdparty" />
       <recent name="D:\IdeaProjects\PolyglotVertx\web\js\angular" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
       <module name="" />
       <setting name="path" value="" />
@@ -382,31 +417,12 @@
       <setting name="debug" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -437,6 +453,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -450,6 +479,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -473,13 +509,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -487,6 +516,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ab7f07c9-28d0-49e0-863d-1da929150aec" name="Default" comment="" />
@@ -509,14 +555,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20490928" sideWeight="0.67112595" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19903949" sideWeight="0.67001116" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -592,11 +638,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/js/vertxbus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="55" selection-start="5726" selection-end="5726" vertical-scroll-proportion="0.25296912" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/GitHub/Voyage/web/js/client_app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="77" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.45350173" />
@@ -641,9 +682,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/i18n/messages_fi.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="58" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.5425532">
-          <folding />
-        </state>
+        <state line="27" column="58" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.5425532" />
       </provider>
       <provider editor-type-id="ResourceBundle">
         <state />
@@ -651,36 +690,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/i18n/exceptions.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="46" selection-start="495" selection-end="495" vertical-scroll-proportion="0.18085106">
-          <folding />
-        </state>
+        <state line="9" column="46" selection-start="495" selection-end="495" vertical-scroll-proportion="0.18085106" />
       </provider>
       <provider editor-type-id="ResourceBundle">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="24" selection-start="33" selection-end="171" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="37" selection-start="4329" selection-end="4329" vertical-scroll-proportion="-6.576923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/i18n/messages.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="58" selection-start="1105" selection-end="1105" vertical-scroll-proportion="-16.32">
-          <folding />
-        </state>
+        <state line="27" column="58" selection-start="1105" selection-end="1105" vertical-scroll-proportion="0.0" />
       </provider>
       <provider editor-type-id="ResourceBundle">
         <state />
@@ -688,16 +706,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="1367" selection-end="1367" vertical-scroll-proportion="0.0">
+        <state line="18" column="25" selection-start="1367" selection-end="1367" vertical-scroll-proportion="0.019813519">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/vertxbus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="162" column="55" selection-start="5726" selection-end="5726" vertical-scroll-proportion="0.27784157">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/client_app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="13" selection-start="6509" selection-end="6509" vertical-scroll-proportion="0.024110219">
+        <state line="30" column="72" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.019517796">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="85" selection-start="6195" selection-end="6195" vertical-scroll-proportion="0.5925481">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="3200" selection-end="3200" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
