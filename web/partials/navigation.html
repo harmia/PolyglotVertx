@@ -1,0 +1,36 @@
+<div class="row">
+    <div class="span8 offset2">
+        <ul class="nav nav-tabs" id="navTabs">
+            <li class="OVERVIEW"><a href="#OVERVIEW" data-toggle="tab" ng-click="clearAlert()">{{'main.nav.overview'
+                | i18n}}</a></li>
+            <li class="DEPARTMENTS"><a href="#DEPARTMENTS" data-toggle="tab" ng-click="clearAlert()">{{'main.nav.departments'
+                | i18n}}</a>
+            </li>
+            <li class="EMPLOYEES"><a href="#EMPLOYEES" data-toggle="tab" ng-click="clearAlert()">{{'main.nav.employees'
+                | i18n}}</a></li>
+            <li class="LANGUAGE pull-right"><a href="?locale={{'main.nav.language.locale' | i18n}}" class="right">{{'main.nav.language'
+                | i18n}}</a></li>
+        </ul>
+
+        <div class="alert alert-error" ng-show="alert.error">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            {{alert.error}}
+        </div>
+
+        <div class="alert alert-success" ng-show="alert.success">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            {{alert.success}}
+        </div>
+
+        <div class="alert alert-info" ng-show="alert.info">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            {{alert.info}}
+        </div>
+
+        <div class="alert" ng-show="alert.alert">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            {{alert.alert}}
+        </div>
+
+    </div>
+</div>

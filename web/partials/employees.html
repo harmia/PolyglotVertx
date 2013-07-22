@@ -1,0 +1,147 @@
+<div class="row">
+    <div class="span8 offset2">
+
+        <h1 class="title">{{'employees.title' | i18n }}</h1>
+
+        <div class="alert alert-info" ng-hide="departments.length">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            {{'employees.empty.departments' | i18n}}
+        </div>
+
+        <span ng-show="departments.length">
+            <form name="employeeForm" class="form-horizontal" novalidate>
+                <div class="control-group">
+                    <label class="control-label" for="firstName">{{'employees.form.firstName' | i18n}}</label>
+
+                    <div class="controls">
+                        <input auto-complete ui-items="checkFirstNames" type="text" id="firstName" name="firstName"
+                               ng-model="employee.firstName" required/>
+                        <span class="alert alert-error" ng-show="employeeForm.firstName.$error.required">{{'NotEmpty.employee.firstName' | i18n}}</span>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="lastName">{{'employees.form.lastName' | i18n}}</label>
+
+                    <div class="controls">
+                        <input type="text" id="lastName" name="lastName" ng-model="employee.lastName" required/>
+                        <span class="alert alert-error" ng-show="employeeForm.lastName.$error.required">{{'NotEmpty.employee.lastName' | i18n}}</span>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="lastName">{{'employees.form.email' | i18n}}</label>
+
+                    <div class="controls">
+                        <input type="email" id="email" name="email" ng-model="employee.email" required/>
+                        <span class="alert alert-error" ng-show="employeeForm.email.$error.required">{{'NotEmpty.employee.email' | i18n}}</span>
+                        <span class="alert alert-error" ng-show="employeeForm.email.$error.email">{{'Email.employee.email' | i18n}}</span>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="department">{{'employees.form.department' | i18n}}</label>
+
+                    <div class="controls">
+                        <select id="department" name="department" ng-model="employee.department"
+                                ng-options="department.name for department in departments" required></select>
+                        <span class="alert alert-error" ng-show="employeeForm.department.$error.required">{{'NotEmpty' | i18n}}</span>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="contractBeginDate">{{'employees.form.contractBeginDate' |
+                        i18n}}</label>
+
+                    <div class="controls">
+                        <input datepicker type="text" id="contractBeginDate" name="contractBeginDate"
+                               ng-model="employee.contractBeginDate" required/>
+                        <span class="alert alert-error" ng-show="employeeForm.contractBeginDate.$error.required">{{'NotNull.employee.contractBeginDate' | i18n}}</span>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="municipalityName">{{'employees.form.municipalityId' |
+                        i18n}}</label>
+
+                    <div class="controls">
+                        <input auto-complete ui-items="checkMunicipalities" type="text" id="municipalityName"
+                               name="municipalityName" ng-model="employee.municipalityName" required/>
+                        <span class="alert alert-error" ng-show="employeeForm.municipalityName.$error.required">{{'NotEmpty.employee.municipalityName' | i18n}}</span>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <div class="controls">
+                        <button class="btn btn-primary" ng-disabled="!employeeForm.$valid"
+                                ng-click="addEmployee(employee)">{{'employees.form.submit' | i18n}}
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </span>
+
+        <span ng-show="countEmployees()">
+            <h3>{{'employees.title' | i18n}}</h3>
+            <table class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                    <th>{{'employees.table.id' | i18n}}</th>
+                    <th>{{'employees.table.name' | i18n}}</th>
+                    <th>{{'employees.table.email' | i18n}}</th>
+                    <th>{{'employees.table.department' | i18n}}</th>
+                    <th>{{'employees.table.contractBeginDate' | i18n}}</th>
+                    <th>{{'employees.table.municipality' | i18n}}</th>
+                    <th>&nbsp;</th>
+                </tr>
+                </thead>
+                <tbody ng-repeat="department in departments | orderBy:'id'">
+                <tr ng-repeat="employee in department.employees | orderBy:'id'">
+                    <td>{{employee.id}}</td>
+                    <td>{{employee.lastName}}, {{employee.firstName}}</td>
+                    <td>{{employee.email}}</td>
+                    <td>
+                        <div class="btn-group">
+                            <a class="btn btn-small dropdown-toggle" data-toggle="dropdown" href="#">
+                                {{department.name}}
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li ng-repeat="department in departments | orderBy:'id'">
+                                    <a ng-click="changeEmployeeDepartment($parent.$parent.department, $parent.employee, department)">{{department.name}}
+                                        <form class="hidden" method="post">
+                                            <button class="btn btn-primary hidden">{{'common.change' | i18n}}
+                                            </button>
+                                        </form>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td>{{employee.contractBeginDate | parseDate | date:'mediumDate'}}</td>
+                    <td>{{employee.municipalityName}}</td>
+                    <td>
+                        <form method="post">
+                            <a href="#deleteEmployeeModal{{employee.id}}" role="button"
+                               class="btn btn-danger btn-mini" data-toggle="modal">{{'common.delete' | i18n}}</a>
+
+                            <div id="deleteEmployeeModal{{employee.id}}" class="modal hide fade" tabindex="-1"
+                                 role="dialog" aria-labelledby="deleteEmployeeModalLabel" aria-hidden="true">
+                                <div class="modal-header">
+                                    <h3 id="deleteEmployeeModalLabel">{{'employees.modal.header' |
+                                        i18n:[employee.lastName,employee.firstName]}}</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <p>{{'employees.modal.body' | i18n:[employee.lastName,employee.firstName]}}</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn" data-dismiss="modal" aria-hidden="true">{{'common.close' |
+                                        i18n}}
+                                    </button>
+                                    <button class="btn btn-primary" ng-click="deleteEmployee(department, employee)">
+                                        {{'common.saveChanges' | i18n}}
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </span>
+    </div>
+</div>

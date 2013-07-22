@@ -1,0 +1,45 @@
+<div class="row">
+    <div class="span8 offset2">
+
+        <h1 class="title">{{'overview.title' | i18n }}</h1>
+
+        <div class="alert alert-info" ng-hide="departments.length">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            {{'overview.empty.departments' | i18n}}
+        </div>
+
+        <div class="alert alert-info" ng-show="departments.length" ng-hide="countEmployees()">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            {{'overview.empty.employees' | i18n}}
+        </div>
+
+        <h3>{{'overview.total' | i18n:[departments.length,countEmployees()]}}</h3>
+
+        <ul class="nav nav-pills" data-tabs="tabs" ng-show="departments.length">
+            <li ng-repeat="department in departments | orderBy:'id'"
+                ng-attr-class="{{$index == 0 && 'active' || ''}}">
+                <a href="#{{department.id}}" data-toggle="tab">{{department.name}}</a>
+            </li>
+        </ul>
+
+        <div class="pill-content">
+            <div ng-repeat="department in departments | orderBy:'id'"
+                 ng-attr-class="{{$index == 0 && 'pill-pane active' || 'pill-pane'}}" id="{{department.id}}">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                    </tr>
+                    </thead>
+                    <tbody ng-show="department.employees.length">
+                    <tr ng-repeat="employee in department.employees | orderBy:'id'">
+                        <td>{{employee.lastName}}, {{employee.firstName}}</td>
+                        <td>{{employee.email}}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

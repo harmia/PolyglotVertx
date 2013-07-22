@@ -1,0 +1,70 @@
+<div class="row">
+    <div class="span8 offset2">
+
+        <h1 class="title">{{'departments.title' | i18n }}</h1>
+
+        <form name="departmentForm" class="form-horizontal" novalidate>
+            <div class="control-group">
+                <label class="control-label" for="name">{{'departments.form.name' | i18n}}</label>
+
+                <div class="controls">
+                    <input type="text" id="name" name="name" ng-model="department.name" required/>
+                    <span class="alert alert-error" ng-show="departmentForm.name.$error.required">{{'NotEmpty.department.name' | i18n}}</span>
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="controls">
+                    <button class="btn btn-primary" ng-disabled="!departmentForm.$valid"
+                            ng-click="addDepartment(department)">{{'departments.form.submit' | i18n}}
+                    </button>
+                </div>
+            </div>
+        </form>
+
+        <span ng-show="departments.length">
+            <h3>{{'departments.title' | i18n}}</h3>
+            <table class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                    <th>{{'departments.table.id' | i18n}}</th>
+                    <th>{{'departments.table.name' | i18n}}</th>
+                    <th>&nbsp;</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="department in departments | orderBy:'id'">
+                    <td>{{department.id}}</td>
+                    <td>{{department.name}}</td>
+                    <td>
+                        <form method="post">
+                            <a href="#deleteDepartmentModal{{department.id}}" role="button"
+                               class="btn btn-danger btn-mini" data-toggle="modal">{{'common.delete' |
+                                i18n}}</a>
+
+                            <div id="deleteDepartmentModal{{department.id}}" class="modal hide fade"
+                                 tabindex="-1"
+                                 role="dialog" aria-labelledby="deleteDepartmentModalLabel" aria-hidden="true">
+                                <div class="modal-header">
+                                    <h3 id="deleteDepartmentModalLabel">{{'departments.modal.header' |
+                                        i18n:[department.name]}}</h3>
+                                </div>
+                                <div class="modal-body">
+                                    <p>{{'departments.modal.body' | i18n:[department.name]}}</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn" data-dismiss="modal" aria-hidden="true">{{'common.close'
+                                        | i18n}}
+                                    </button>
+                                    <button class="btn btn-primary" ng-click="deleteDepartment(department)">
+                                        {{'common.saveChanges' | i18n}}
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </span>
+    </div>
+</div>
