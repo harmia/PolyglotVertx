@@ -102,7 +102,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li ng-repeat="department in departments | orderBy:'id'">
-                                    <a ng-click="changeEmployeeDepartment($parent.$parent.department, $parent.employee, department)">{{department.name}}
+                                    <a ng-click="changeDepartment($parent.$parent.department, $parent.employee, department)">{{department.name}}
                                         <form class="hidden" method="post">
                                             <button class="btn btn-primary hidden">{{'common.change' | i18n}}
                                             </button>
