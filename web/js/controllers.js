@@ -47,7 +47,7 @@ vertxApp.controller('DepartmentCtrl', function ($scope, $filter, WebUtils, Depar
     }
 )
 
-vertxApp.controller('EmployeeCtrl', function ($scope, $filter, WebUtils, EmployeeService, MunicipalityService) {
+vertxApp.controller('EmployeeCtrl', function ($scope, $filter, $http, WebUtils, EmployeeService, MunicipalityService) {
 
         $scope.addEmployee = function (employeeJson) {
             if (employeeJson) {
@@ -92,7 +92,7 @@ vertxApp.controller('EmployeeCtrl', function ($scope, $filter, WebUtils, Employe
         }
 
         $scope.checkFirstNames = function (searchObject, response) {
-            $.getJSON("/data/names.json").success(function (data) {
+            $http.get('/data/names.json').success(function (data) {
                 response($.map($.grep(data, function (item) {
                     return item.name.toUpperCase().startsWith(searchObject.term.toUpperCase())
                 }), function (item) {
@@ -100,8 +100,7 @@ vertxApp.controller('EmployeeCtrl', function ($scope, $filter, WebUtils, Employe
                         label: item.name,
                         value: item.name
                     }
-                })
-                )
+                }))
             })
         }
 
