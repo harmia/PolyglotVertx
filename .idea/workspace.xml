@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab7f07c9-28d0-49e0-863d-1da929150aec" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\IdeaProjects\PolyglotVertx\mods\vertx.mongo-persistor-v1.2.1\lib\mongo-java-driver-2.9.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\PolyglotVertx\mods\vertx.mongo-persistor-v1.2.1\mod.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\PolyglotVertx\mods\vertx.mongo-persistor-v1.2.1\org\vertx\mods\MongoPersistor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\PolyglotVertx\mods\vertx.mongo-persistor-v1.2.1\org\vertx\mods\MongoPersistor$2.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\PolyglotVertx\mods\vertx.mongo-persistor-v1.2.1\org\vertx\mods\MongoPersistor$3.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\PolyglotVertx\mods\vertx.mongo-persistor-v1.2.1\org\vertx\mods\MongoPersistor.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\PolyglotVertx\mods\vertx.web-server-v1.0\mod.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\IdeaProjects\PolyglotVertx\mods\vertx.web-server-v1.0\org\vertx\mods\WebServer.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App.groovy" afterPath="$PROJECT_DIR$/App.groovy" />
+    <list default="true" id="ab7f07c9-28d0-49e0-863d-1da929150aec" name="Default" comment="updated project structure #4 uses vert.x-2.0.0-final and apt mods">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/img/project_structure_vertx.png" afterPath="$PROJECT_DIR$/web/img/project_structure_vertx.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PolyglotVertx.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1374585620549" ignored="false" />
+    <file path="/Dummy.txt" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1374586513038" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/Grails/lib/grails_integration.jar!/org/jetbrains/plugins/grails/lang/gsp/resolve/taglib/tld/grails.tld" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372176354355" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspdirectives.xsd" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372176555433" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspxml2.xsd" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372176555433" ignored="false" />
@@ -171,10 +164,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="App.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="35" selection-start="2365" selection-end="2365" vertical-scroll-proportion="0.27222833">
+            <state line="74" column="41" selection-start="3421" selection-end="3435" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -228,7 +233,6 @@
         <option value="$PROJECT_DIR$/web/i18n/messages.properties" />
         <option value="$PROJECT_DIR$/web/i18n/messages_fi.properties" />
         <option value="$PROJECT_DIR$/web/partials/disclaimer.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/web/js/client_app.js" />
         <option value="$PROJECT_DIR$/web/js/directives.js" />
         <option value="$PROJECT_DIR$/web/js/filters.js" />
@@ -241,6 +245,7 @@
         <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/js/controllers.js" />
         <option value="$PROJECT_DIR$/App.groovy" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -428,11 +433,11 @@
       <recent name="D:\IdeaProjects\PolyglotVertx\web\js3rdparty" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\PolyglotVertx\web\img" />
       <recent name="D:\IdeaProjects\PolyglotVertx\web\js\i18n" />
       <recent name="D:\IdeaProjects\PolyglotVertx\web\lib" />
       <recent name="D:\IdeaProjects\PolyglotVertx\web" />
       <recent name="D:\IdeaProjects\PolyglotVertx\web\images" />
-      <recent name="D:\IdeaProjects\PolyglotVertx\web\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -593,7 +598,11 @@
       <created>1374584430877</created>
       <updated>1374584430877</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="closes #4 uses vert.x-2.0.0-final and apt mods">
+      <created>1374586262984</created>
+      <updated>1374586262984</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -611,6 +620,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -623,7 +633,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -669,7 +678,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="closes #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="closes #4 uses vert.x-2.0.0-final and apt mods" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -688,6 +697,7 @@
     <MESSAGE value="web/ folder marked as source root" />
     <MESSAGE value="angular app conventions in separation of concerns" />
     <MESSAGE value="closes #3" />
+    <MESSAGE value="closes #4 uses vert.x-2.0.0-final and apt mods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -699,11 +709,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="61" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.36658654" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/i18n/angular-locale_fi.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -796,7 +801,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/App.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="35" selection-start="2365" selection-end="2365" vertical-scroll-proportion="0.27222833">
+        <state line="74" column="41" selection-start="3421" selection-end="3435" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

@@ -1,7 +1,5 @@
 # Single-page application with Vert.x framework and AngularJS #
 
-
-
 This example application consist of a small domain model with only simple business logic to add, remove and list departments and employees. This reference implementation serves as proof of concept to demonstrate the feasibility behind polyglot programming and polyglot programming pyramid. Simplicity of the application limits its ability to demonstrate some cases where different programming languages and paradigms might prove useful. This proof of concept is given to verify that the concept has the potential of being used.
 
 ## Project Structure ##
