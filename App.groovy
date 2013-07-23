@@ -67,10 +67,10 @@ def webServerConf = [
 // Now we deploy the modules that we need
 container.with {
     // Deploy a MongoDB persistor module
-    deployModule('vertx.mongo-persistor-v1.2.1') {
+    deployModule('io.vertx~mod-mongo-persistor~2.0.0-final') {
         deployVerticle('StaticData.groovy')
     }
 
     // Start the web server, with the config we defined above
-    deployModule('vertx.web-server-v1.0', webServerConf)
+    deployModule('io.vertx~mod-web-server~2.0.0-final', webServerConf)
 }
