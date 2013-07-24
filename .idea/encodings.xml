@@ -2,12 +2,16 @@
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
     <file url="file://$PROJECT_DIR$/README.md" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/web/data" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/web/i18n" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/web/img/calendar.png" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/web/js/i18n/angular-locale_fi.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/web/js/i18n/ui.datepicker-fi.js" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/web/lib/jquery.i18n.properties-1.0.9.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/i18n" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/i18n/exceptions.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/i18n/exceptions_fi.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/i18n/messages.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/i18n/messages_fi.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/img/calendar.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/js/i18n/angular-locale_fi.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/js/i18n/ui.datepicker-fi.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/web/lib/jquery.i18n.properties-1.0.9.js" charset="UTF-8" />
   </component>
 </project>
 

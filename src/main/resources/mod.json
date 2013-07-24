@@ -1,0 +1,17 @@
+{
+    "auto-redeploy": true,
+
+    // Groovy *script* verticle
+    "main":"App.groovy",
+
+    // If your module is going to be registered in the Vert.x module registry you will also need the following
+    // mandatory fields
+    "description": "Single-page application with Vert.x framework and AngularJS",
+    "licenses": ["The Apache Software License Version 2.0"],
+    "author": "Juhana Harmanen",
+
+    // Optional fields
+    "developers": ["Juhana 'harmia' Harmanen"],
+    "keywords": ["polyglot programming", "vertx", "angularjs", "single-page application", "thin server architecture"],
+    "homepage": "https://github.com/harmia/PolyglotVertx"
+}

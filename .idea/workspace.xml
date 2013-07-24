@@ -2,12 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab7f07c9-28d0-49e0-863d-1da929150aec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/controllers.js" afterPath="$PROJECT_DIR$/web/js/controllers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/integration_tests/groovy/BasicIntegrationTest.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/info/harmia/polyglot/vertx/integration/java/BasicIntegrationTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/info/harmia/polyglot/vertx/unit/ExampleUnitTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/info/harmia/polyglot/vertx/integration/groovy/GroovyIntegrationTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/info/harmia/polyglot/vertx/integration/javascript/JavaScriptIntegrationTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/integration_tests/groovy/ModuleIntegrationTest.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/info/harmia/polyglot/vertx/integration/java/ModuleIntegrationTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/info/harmia/polyglot/vertx/integration/python/PythonIntegrationTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/info/harmia/polyglot/vertx/integration/java/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/info/harmia/polyglot/vertx/integration/ruby/RubyIntegrationTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/info/harmia/polyglot/vertx/integration/java/SomeVerticle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mod.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/assembly/mod.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PolyglotVertx.iml" afterPath="$PROJECT_DIR$/PolyglotVertx.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\App.groovy" afterPath="$PROJECT_DIR$/src/main/resources/App.groovy" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\StaticData.groovy" afterPath="$PROJECT_DIR$/src/main/resources/StaticData.groovy" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\server-keystore.jks" afterPath="$PROJECT_DIR$/src/main/resources/server-keystore.jks" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\css\bootstrap-responsive.css" afterPath="$PROJECT_DIR$/src/main/web/css/bootstrap-responsive.css" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\css\bootstrap.css" afterPath="$PROJECT_DIR$/src/main/web/css/bootstrap.css" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\css\jquery-ui.css" afterPath="$PROJECT_DIR$/src/main/web/css/jquery-ui.css" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\css\reset.css" afterPath="$PROJECT_DIR$/src/main/web/css/reset.css" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\data\data.json" afterPath="$PROJECT_DIR$/src/main/web/data/data.json" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\data\names.json" afterPath="$PROJECT_DIR$/src/main/web/data/names.json" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\i18n\exceptions.properties" afterPath="$PROJECT_DIR$/src/main/web/i18n/exceptions.properties" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\i18n\exceptions_fi.properties" afterPath="$PROJECT_DIR$/src/main/web/i18n/exceptions_fi.properties" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\i18n\messages.properties" afterPath="$PROJECT_DIR$/src/main/web/i18n/messages.properties" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\i18n\messages_fi.properties" afterPath="$PROJECT_DIR$/src/main/web/i18n/messages_fi.properties" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\img\calendar.png" afterPath="$PROJECT_DIR$/src/main/web/img/calendar.png" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\img\project_structure_vertx.png" afterPath="$PROJECT_DIR$/src/main/web/img/project_structure_vertx.png" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\img\pyramid_vertx.png" afterPath="$PROJECT_DIR$/src/main/web/img/pyramid_vertx.png" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\index.html" afterPath="$PROJECT_DIR$/src/main/web/index.html" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\js\app.js" afterPath="$PROJECT_DIR$/src/main/web/js/app.js" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\js\controllers.js" afterPath="$PROJECT_DIR$/src/main/web/js/controllers.js" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\js\custom.js" afterPath="$PROJECT_DIR$/src/main/web/js/custom.js" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\js\directives.js" afterPath="$PROJECT_DIR$/src/main/web/js/directives.js" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\js\filters.js" afterPath="$PROJECT_DIR$/src/main/web/js/filters.js" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\js\i18n\angular-locale_fi.js" afterPath="$PROJECT_DIR$/src/main/web/js/i18n/angular-locale_fi.js" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\js\i18n\ui.datepicker-fi.js" afterPath="$PROJECT_DIR$/src/main/web/js/i18n/ui.datepicker-fi.js" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\lib\angular-1.1.5.js" afterPath="$PROJECT_DIR$/src/main/web/lib/angular-1.1.5.js" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\lib\bootstrap.js" afterPath="$PROJECT_DIR$/src/main/web/lib/bootstrap.js" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\lib\jquery-2.0.3.js" afterPath="$PROJECT_DIR$/src/main/web/lib/jquery-2.0.3.js" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\lib\jquery-ui.js" afterPath="$PROJECT_DIR$/src/main/web/lib/jquery-ui.js" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\lib\jquery.i18n.properties-1.0.9.js" afterPath="$PROJECT_DIR$/src/main/web/lib/jquery.i18n.properties-1.0.9.js" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\lib\sockjs-0.3.4.min.js" afterPath="$PROJECT_DIR$/src/main/web/lib/sockjs-0.3.4.min.js" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\lib\vertxbus.js" afterPath="$PROJECT_DIR$/src/main/web/lib/vertxbus.js" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\partials\departments.html" afterPath="$PROJECT_DIR$/src/main/web/partials/departments.html" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\partials\disclaimer.html" afterPath="$PROJECT_DIR$/src/main/web/partials/disclaimer.html" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\partials\employees.html" afterPath="$PROJECT_DIR$/src/main/web/partials/employees.html" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\partials\navigation.html" afterPath="$PROJECT_DIR$/src/main/web/partials/navigation.html" />
+      <change type="MOVED" beforePath="D:\IdeaProjects\PolyglotVertx\web\partials\overview.html" afterPath="$PROJECT_DIR$/src/main/web/partials/overview.html" />
     </list>
     <ignored path="PolyglotVertx.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1374586593951" ignored="false" />
+    <file path="/Dummy.txt" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1374645435015" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/Grails/lib/grails_integration.jar!/org/jetbrains/plugins/grails/lang/gsp/resolve/taglib/tld/grails.tld" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372176354355" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspdirectives.xsd" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372176555433" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspxml2.xsd" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372176555433" ignored="false" />
@@ -16,7 +67,7 @@
     <file path="/filters.js" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1374493089082" ignored="false" />
     <file path="/data.json" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372327498243" ignored="false" />
     <file path="/StaticData.groovy" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1374501779903" ignored="false" />
-    <file path="/App.groovy" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372774374369" ignored="false" />
+    <file path="/App.groovy" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1374645248439" ignored="false" />
     <file path="/messages.properties" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372848485405" ignored="false" />
     <file path="$PROJECT_DIR$/../PolyglotSpringMVC/src/main/resources/i18n/messages_fi.properties" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372334376017" ignored="false" />
     <file path="/messages_fi.properties" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1372334544568" ignored="false" />
@@ -58,6 +109,8 @@
     <file path="/directives.js" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1374493186718" ignored="false" />
     <file path="/controllers.js" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1374587353255" ignored="false" />
     <file path="/overview.html" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1374581996966" ignored="false" />
+    <file path="/mod.json" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1374644568134" ignored="false" />
+    <file path="/fragment.java" changelist="ab7f07c9-28d0-49e0-863d-1da929150aec" time="1374645659566" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +125,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -109,6 +161,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -117,17 +170,7 @@
     <favorites_list name="PolyglotVertx" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="controllers.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/js/controllers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="9" selection-start="5951" selection-end="5951" vertical-scroll-proportion="0.62138087">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -145,9 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/i18n/messages.properties" />
-        <option value="$PROJECT_DIR$/web/i18n/messages_fi.properties" />
-        <option value="$PROJECT_DIR$/web/partials/disclaimer.html" />
         <option value="$PROJECT_DIR$/web/js/client_app.js" />
         <option value="$PROJECT_DIR$/web/js/directives.js" />
         <option value="$PROJECT_DIR$/web/js/filters.js" />
@@ -161,6 +201,9 @@
         <option value="$PROJECT_DIR$/App.groovy" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/web/js/controllers.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/mod.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/App.groovy" />
+        <option value="$PROJECT_DIR$/src/main/web/js/custom.js" />
       </list>
     </option>
   </component>
@@ -198,7 +241,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,6 +269,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PolyglotVertx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PolyglotVertx" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -241,21 +305,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PolyglotVertx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PolyglotVertx" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -277,11 +331,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -295,24 +353,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mods" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="292" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="292" />
     <property name="project.structure.proportion" value="0.0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="292" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="293" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../PolyglotGrailsJavaLegacy" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="293" />
@@ -328,34 +391,43 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\PolyglotVertx" />
       <recent name="D:\IdeaProjects\PolyglotVertx\web\lib" />
       <recent name="D:\IdeaProjects\PolyglotVertx\web" />
-      <recent name="D:\IdeaProjects\PolyglotVertx" />
       <recent name="D:\IdeaProjects\PolyglotVertx\web\images" />
       <recent name="D:\IdeaProjects\PolyglotVertx\web\js3rdparty" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\PolyglotVertx\src\main" />
+      <recent name="D:\IdeaProjects\PolyglotVertx\src\site" />
+      <recent name="D:\IdeaProjects\PolyglotVertx\src\main\resources" />
       <recent name="D:\IdeaProjects\PolyglotVertx\web\img" />
       <recent name="D:\IdeaProjects\PolyglotVertx\web\js\i18n" />
-      <recent name="D:\IdeaProjects\PolyglotVertx\web\lib" />
-      <recent name="D:\IdeaProjects\PolyglotVertx\web" />
-      <recent name="D:\IdeaProjects\PolyglotVertx\web\images" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
       <module name="" />
       <setting name="path" value="" />
@@ -365,31 +437,12 @@
       <setting name="debug" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -420,6 +473,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -433,6 +499,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -454,13 +527,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -539,19 +605,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20584989" sideWeight="0.67129135" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27593818" sideWeight="0.67129135" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32870865" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -629,109 +695,118 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/js/i18n/angular-locale_fi.js">
+    <entry file="file://$PROJECT_DIR$/src/main/assembly/mod.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="5" column="41" selection-start="355" selection-end="355" vertical-scroll-proportion="0.09330406">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/i18n/ui.datepicker-fi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="43" selection-start="273" selection-end="273" vertical-scroll-proportion="0.09758898" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/data/data.json">
+    <entry file="file://$PROJECT_DIR$/src/test/java/info/harmia/polyglot/vertx/unit/ExampleUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/data/names.json">
+    <entry file="file://$PROJECT_DIR$/src/test/java/info/harmia/polyglot/vertx/integration/groovy/GroovyIntegrationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="25" selection-start="79" selection-end="79" vertical-scroll-proportion="-5.07574">
+        <state line="16" column="40" selection-start="718" selection-end="718" vertical-scroll-proportion="0.298573">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StaticData.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/integration_tests/groovy/BasicIntegrationTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="989" column="86" selection-start="19424" selection-end="19424" vertical-scroll-proportion="0.960373" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/lib/vertxbus.js">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/StaticData.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="17" selection-start="4884" selection-end="4884" vertical-scroll-proportion="0.33295062" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-17.893095">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/filters.js">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mod.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="35" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.3596882">
+        <state line="6" column="35" selection-start="123" selection-end="123" vertical-scroll-proportion="0.11525424">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/directives.js">
+    <entry file="file://$PROJECT_DIR$/src/test/java/info/harmia/polyglot/vertx/integration/java/SomeVerticle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.3975501">
+        <state line="28" column="35" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.50384194">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/partials/employees.html">
+    <entry file="file://$PROJECT_DIR$/src/test/java/info/harmia/polyglot/vertx/integration/java/ModuleIntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="43" selection-start="4525" selection-end="4525" vertical-scroll-proportion="0.01920904">
+        <state line="38" column="30" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.13062568">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
+    <entry file="file://$PROJECT_DIR$/src/test/java/info/harmia/polyglot/vertx/integration/java/BasicIntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="29" selection-start="2333" selection-end="2333" vertical-scroll-proportion="-9.0">
+        <state line="35" column="30" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.09330406">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/partials/overview.html">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="84" selection-start="664" selection-end="664" vertical-scroll-proportion="-10.461538">
+        <state line="18" column="13" selection-start="653" selection-end="653" vertical-scroll-proportion="-3.665203">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/custom.js">
+    <entry file="file://$PROJECT_DIR$/src/main/web/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="97" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+        <state line="104" column="9" selection-start="5951" selection-end="5951" vertical-scroll-proportion="0.44097996">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
+    <entry file="file://$PROJECT_DIR$/src/main/web/lib/jquery-2.0.3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="358" column="12" selection-start="9279" selection-end="9279" vertical-scroll-proportion="0.33296213">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/web/js/filters.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="55" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.16026345">
+        <state line="14" column="35" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.2650334">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app.js">
+    <entry file="file://$PROJECT_DIR$/src/main/web/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="13" selection-start="7364" selection-end="7364" vertical-scroll-proportion="0.33296213">
+        <state line="12" column="56" selection-start="339" selection-end="339" vertical-scroll-proportion="0.22392975">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/controllers.js">
+    <entry file="file://$PROJECT_DIR$/src/main/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="9" selection-start="5951" selection-end="5951" vertical-scroll-proportion="0.62138087">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/App.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="25" selection-start="1463" selection-end="1463" vertical-scroll-proportion="-0.15697037">
           <folding />
         </state>
       </provider>
