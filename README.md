@@ -10,13 +10,13 @@ Structure of the project follows the principles of a thin server architecture to
 
 A single-page application is a web application within a single web page with a goal of providing more fluid user experience similar to a desktop application. Only a single page load is required to retrieve all necessary HTML, JavaScript and CSS. Additional resources are dynamically loaded and added to the page on request, generally in response to user interactions. A single-page application does not load at any point in the process, neither the control transfers to another page. Modern web technologies - in this case Twitter Bootstrap and jQuery - are used to provide the perception and navigability of separate logical pages in the application.
 
-![Project structure of the Java project](web/img/project_structure_vertx.png)
+![Project structure of the Java project](project_structure_vertx.png)
 
 ## Polyglot Programming ##
 
 Polyglot programming pyramid specifies the programming languages, frameworks and libraries used in the project. Groovy is the programming language of choice on the server-side and JavaScript on the client-side. Both of them utilize the native Vert.x API implementations. An out-of-the-box MongoDB persistor bus module is used as a NoSQL document database that provides the necessary data access over the event bus.
 
-![Polyglot programming pyramid of the Vertx project](web/img/pyramid_vertx.png)
+![Polyglot programming pyramid of the Vertx project](pyramid_vertx.png)
 
 The implemented SPA uses dynamic communication to interact with the web server behind the scenes. The Vert.x event bus is utilized in conjunction with SockJS to bridge the client-side with the server-side application. The server-side application deploys the web server, enables the SockJS bridge, and also deploys the MongoDB persistor bus module which instantly registers on the event bus.
 
