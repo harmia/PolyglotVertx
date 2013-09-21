@@ -1,4 +1,8 @@
-# Single-page application with Vert.x framework and AngularJS #
+# [Polyglot Programming in Web Development](http://urn.fi/URN:NBN:fi:tty-201309131343) #
+
+The idea of polyglot programming is to combine and utilize the best solutions from different programming languages and paradigms. Therefore, polyglot programming has the potential to improve web development in various areas.
+
+## Single-page application with Vert.x framework and AngularJS ##
 
 This example application consist of a small domain model with only simple business logic to add, remove and list departments and employees. This reference implementation serves as proof of concept to demonstrate the feasibility behind polyglot programming and polyglot programming pyramid. Simplicity of the application limits its ability to demonstrate some cases where different programming languages and paradigms might prove useful. This proof of concept is given to verify that the concept has the potential of being used.
 
