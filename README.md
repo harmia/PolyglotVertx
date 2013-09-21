@@ -16,7 +16,7 @@ A single-page application is a web application within a single web page with a g
 
 ![Project structure of the Java project](project_structure_vertx.png)
 
-## Polyglot Programming ##
+## Polyglot Programming Pyramid ##
 
 Polyglot programming pyramid specifies the programming languages, frameworks and libraries used in the project. Groovy is the programming language of choice on the server-side and JavaScript on the client-side. Both of them utilize the native Vert.x API implementations. An out-of-the-box MongoDB persistor bus module is used as a NoSQL document database that provides the necessary data access over the event bus.
 
